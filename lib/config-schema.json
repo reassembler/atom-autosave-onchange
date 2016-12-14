@@ -1,0 +1,13 @@
+{
+  "showNotification": {
+    "description": "Show a notification when something's autosaved.",
+    "type": "boolean",
+    "default": true
+  },
+  "notificationLength": {
+    "description": "How long to display notifications.",
+    "type": "integer",
+    "minimum": 1000,
+    "default": 3000
+  }
+}
